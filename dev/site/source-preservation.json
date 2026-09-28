@@ -1,0 +1,15 @@
+{
+  "preexistingFilesPreserved": true,
+  "deletedBaselineFiles": [],
+  "changedExistingFiles": [
+    "src/lib/site-map.ts",
+    "src/lib/SiteFooter.svelte",
+    "src/lib/PluginFree.svelte",
+    "src/lib/SiteHeader.svelte",
+    "src/routes/[[lang=lang]]/+page.svelte",
+    "src/routes/[[lang=lang]]/plugins/+page.svelte",
+    "src/lib/i18n/fr.json",
+    "src/lib/i18n/en.json"
+  ],
+  "otherBaselineFilesUnchanged": 222
+}

@@ -1,12 +1,54 @@
 {
- "plugin":"jeytech-checkout-hours",
- "version":"1.0.0",
- "archiveSha256":"7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49",
- "productionFiles":17,
- "runtimeMatrix":{"hpos":73,"posts":73,"minimum":73,"failures":0},
- "browserScenarios":{"en":9,"fr":9,"classicModes":["closed","open","warn"],"blocksModes":["closed","open","warn"],"nativeClosedStockPreserved":true,"nativeClosedGatewayNotCalled":true,"cachedOpenPageRejectedAfterClosing":true,"noJavaScriptClassicRejected":true},
- "pluginCheck":{"errors":0,"warnings":0,"scope":"All available static and experimental checks; runtime testing provided by functional/browser suites due Playground SQLite limitations."},
- "packagingScenarios":15,
- "languages":{"englishSource":true,"frenchPreparedStrings":51,"frenchPackInstalledSeparately":true,"englishFallbackWithoutPack":true,"englishRestoration":true,"bundledCatalogs":false,"publicFrenchPack":"Pending publication and community validation"},
- "limitations":["Positive native checkout submissions use non-stock virtual products because Playground SQLite cannot execute WooCommerce stock reservation SQL. Managed stock is tested on rejected native checkouts and direct REST validation."]
+  "plugin": "jeytech-checkout-hours",
+  "version": "1.0.0",
+  "archiveSha256": "7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49",
+  "productionFiles": 17,
+  "runtimeMatrix": {
+    "hpos": 73,
+    "posts": 73,
+    "minimum": 73,
+    "failures": 0
+  },
+  "browserScenarios": {
+    "en": 9,
+    "fr": 9,
+    "classicModes": [
+      "closed",
+      "open",
+      "warn"
+    ],
+    "blocksModes": [
+      "closed",
+      "open",
+      "warn"
+    ],
+    "nativeClosedStockPreserved": true,
+    "nativeClosedGatewayNotCalled": true,
+    "cachedOpenPageRejectedAfterClosing": true,
+    "noJavaScriptClassicRejected": true
+  },
+  "pluginCheck": {
+    "errors": 0,
+    "warnings": 0,
+    "scope": "All available static and experimental checks; runtime testing provided by functional/browser suites due Playground SQLite limitations."
+  },
+  "packagingScenarios": 15,
+  "languages": {
+    "englishSource": true,
+    "frenchPreparedStrings": 51,
+    "frenchPackInstalledSeparately": true,
+    "englishFallbackWithoutPack": true,
+    "englishRestoration": true,
+    "bundledCatalogs": false,
+    "publicFrenchPack": "Pending publication and community validation"
+  },
+  "limitations": [
+    "Positive native checkout submissions use non-stock virtual products because Playground SQLite cannot execute WooCommerce stock reservation SQL. Managed stock is tested on rejected native checkouts and direct REST validation."
+  ],
+  "sourceRepository": "https://github.com/the-jey/jeytech-checkout-hours",
+  "nativeFrenchDemoFormatting": {
+    "date": "j F Y",
+    "time": "H\\hi",
+    "price": "Comma decimal separator; currency on the right"
+  }
 }

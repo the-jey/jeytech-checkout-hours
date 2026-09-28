@@ -1,0 +1,74 @@
+{
+  "verifiedAt": "2026-09-28T13:45:44.596Z",
+  "checks": [
+    {
+      "environment": "live",
+      "locale": "en",
+      "view": "desktop",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "live",
+      "locale": "en",
+      "route": "/plugins",
+      "newProductPresent": true
+    },
+    {
+      "environment": "live",
+      "locale": "en",
+      "route": "/",
+      "newProductPresent": true
+    },
+    {
+      "environment": "live",
+      "locale": "fr",
+      "view": "desktop",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "live",
+      "locale": "fr",
+      "route": "/plugins",
+      "newProductPresent": true
+    },
+    {
+      "environment": "live",
+      "locale": "fr",
+      "route": "/",
+      "newProductPresent": true
+    },
+    {
+      "environment": "live",
+      "locale": "en",
+      "view": "mobile",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "live",
+      "locale": "fr",
+      "view": "mobile",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    }
+  ],
+  "sitemapENFR": true
+}

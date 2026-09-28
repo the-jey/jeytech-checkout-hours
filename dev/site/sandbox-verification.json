@@ -1,0 +1,74 @@
+{
+  "verifiedAt": "2026-09-28T13:43:43.497Z",
+  "checks": [
+    {
+      "environment": "sandbox",
+      "locale": "en",
+      "view": "desktop",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "sandbox",
+      "locale": "en",
+      "route": "/plugins",
+      "newProductPresent": true
+    },
+    {
+      "environment": "sandbox",
+      "locale": "en",
+      "route": "/",
+      "newProductPresent": true
+    },
+    {
+      "environment": "sandbox",
+      "locale": "fr",
+      "view": "desktop",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "sandbox",
+      "locale": "fr",
+      "route": "/plugins",
+      "newProductPresent": true
+    },
+    {
+      "environment": "sandbox",
+      "locale": "fr",
+      "route": "/",
+      "newProductPresent": true
+    },
+    {
+      "environment": "sandbox",
+      "locale": "en",
+      "view": "mobile",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    },
+    {
+      "environment": "sandbox",
+      "locale": "fr",
+      "view": "mobile",
+      "route": "checkout-hours",
+      "http": 200,
+      "imagesLoaded": true,
+      "translationClaimsAccurate": true,
+      "overflow": false,
+      "jsErrors": 0
+    }
+  ],
+  "sitemapENFR": true
+}

@@ -50,5 +50,22 @@
       "slug": "order-hours-scheduler-for-woocommerce"
     }
   ],
-  "conclusion": "Selected distinctive JeyTech name. Public API absence does not reserve the slug or establish trademark clearance."
+  "conclusion": "Selected distinctive JeyTech name. Public API absence does not reserve the slug or establish trademark clearance.",
+  "preSubmissionRecheck": {
+    "at": "2026-09-28T13:44:45.375651+00:00",
+    "slugHttpStatus": 404,
+    "wordpressSearches": [
+      {
+        "search": "JeyTech Checkout Hours",
+        "inspectedFirstPage": 1,
+        "exactNameMatches": []
+      },
+      {
+        "search": "Checkout Hours for WooCommerce",
+        "inspectedFirstPage": 100,
+        "exactNameMatches": []
+      }
+    ],
+    "submissionGate": "Still waiting for review #4; no submission attempted. Recheck again at actual submission."
+  }
 }

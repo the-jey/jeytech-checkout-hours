@@ -6,5 +6,13 @@
   "review4Proof": "review-4-status.json",
   "nextAction": "When #4 is approved, publish its already approved package by SVN, then submit this tested #5 ZIP through the authenticated WordPress.org portal.",
   "publicDownload": "Not yet available from WordPress.org.",
-  "frenchPack": "Prepared and natively tested outside the ZIP; community validation and public language-pack delivery are pending publication."
+  "frenchPack": "Prepared and natively tested outside the ZIP; community validation and public language-pack delivery are pending publication.",
+  "lastCheckedAt": "2026-09-28T13:49:47.100Z",
+  "sourceRepository": "https://github.com/the-jey/jeytech-checkout-hours",
+  "sitePages": {
+    "en": "https://jeytech.app/plugins/checkout-hours",
+    "fr": "https://jeytech.app/fr/plugins/checkout-hours"
+  },
+  "policySource": "https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/#how-many-plugins-can-i-submit-for-review-at-a-time",
+  "preparedArchiveSha256": "7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49"
 }

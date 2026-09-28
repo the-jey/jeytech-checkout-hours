@@ -1,0 +1,48 @@
+{
+  "recordedAt": "2026-09-28T13:53:20.067315+00:00",
+  "plugin": "jeytech-checkout-hours",
+  "version": "1.0.0",
+  "implementation": "complete",
+  "sourceRepository": "https://github.com/the-jey/jeytech-checkout-hours",
+  "archive": {
+    "path": "../../../releases/jeytech-checkout-hours-1.0.0.zip",
+    "sha256": "7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49",
+    "files": 17
+  },
+  "validation": {
+    "functionalChecks": 219,
+    "nativeBrowserScenarios": 18,
+    "languagePackScenarios": 2,
+    "languagePackagingScenarios": 15,
+    "pluginCheckErrors": 0,
+    "pluginCheckWarnings": 0,
+    "details": "../validation-summary.json",
+    "limitations": "../TESTING.md"
+  },
+  "deployments": {
+    "sandbox": {
+      "baseUrl": "https://jeytech-pro-sandbox.jey-pley.workers.dev",
+      "versionId": "ad2d7f5f-f43c-465a-b7bc-f045cec68f22",
+      "pageChecks": 8,
+      "sitemapENFR": true
+    },
+    "live": {
+      "baseUrl": "https://jeytech.app",
+      "versionId": "9f3a7e38-78b8-4e94-b81b-23b92e330579",
+      "pageChecks": 8,
+      "sitemapENFR": true
+    }
+  },
+  "pages": {
+    "en": "https://jeytech.app/plugins/checkout-hours",
+    "fr": "https://jeytech.app/fr/plugins/checkout-hours"
+  },
+  "preexistingSiteFilesPreserved": true,
+  "wordpressOrg": {
+    "status": "prepared-not-submitted",
+    "waitingFor": "jeytech-order-transfer-qr",
+    "lastCheckedAt": "2026-09-28T13:49:47.100Z",
+    "reviewStatus": "Being Reviewed \u2014 We've got your email. This plugin is currently waiting on action from our plugins team."
+  },
+  "publicFrenchPack": "Pending WordPress.org publication and community validation"
+}

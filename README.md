@@ -4,7 +4,7 @@ Free weekly checkout schedule. Catalog and cart stay usable outside order hours.
 
 Version 1.0.0 is complete and tested. The [English](https://jeytech.app/plugins/checkout-hours) and [French](https://jeytech.app/fr/plugins/checkout-hours) product pages are live. WordPress.org submission is pending the completion of the existing Order Transfer QR review; this plugin is not published in the directory yet.
 
-Validation: 219 functional checks, 18 native EN/FR checkout browser scenarios, native external French pack and English fallback, 15 language-packaging scenarios, and Plugin Check's static/experimental checks with zero errors or warnings. See [test scope and environment limitations](dev/TESTING.md), [release manifest](dev/release-manifest.json) and [implementation status](dev/IMPLEMENTATION.md).
+Validation: 219 functional checks, 18 Playground EN/FR checkout browser scenarios plus 12 native MariaDB inventory scenarios, native external French pack and English fallback, 15 language-packaging scenarios, and Plugin Check's static/experimental checks with zero errors or warnings. See [test scope and environment limitations](dev/TESTING.md), [release manifest](dev/release-manifest.json) and [implementation status](dev/IMPLEMENTATION.md).
 
 ## Development
 

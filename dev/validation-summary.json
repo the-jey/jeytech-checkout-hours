@@ -43,12 +43,34 @@
     "publicFrenchPack": "Pending publication and community validation"
   },
   "limitations": [
-    "Positive native checkout submissions use non-stock virtual products because Playground SQLite cannot execute WooCommerce stock reservation SQL. Managed stock is tested on rejected native checkouts and direct REST validation."
+    "Playground positive native checkouts use non-stock virtual products due SQLite SQL limitations. Positive and rejected native inventory flows are additionally verified on PHP 8.3.6 / MariaDB 10.11.14 / HPOS; native inventory flows on PHP 7.4 and post storage are not part of this supplemental run.",
+    "Plugin Check static/experimental checks passed; its Playground runtime suite still requires a second database unavailable in that environment."
   ],
   "sourceRepository": "https://github.com/the-jey/jeytech-checkout-hours",
   "nativeFrenchDemoFormatting": {
     "date": "j F Y",
     "time": "H\\hi",
     "price": "Comma decimal separator; currency on the right"
+  },
+  "nativeManagedStock": {
+    "database": "MariaDB 10.11.14",
+    "php": "8.3.6",
+    "storage": "HPOS",
+    "locales": [
+      "en",
+      "fr"
+    ],
+    "classicAndBlocks": true,
+    "scenarios": 12,
+    "positiveOrders": 8,
+    "rejectedOrders": 4,
+    "stockReducedExactlyOnce": true,
+    "acceptedOrderReservationsReleased": true,
+    "receiptReloadDoesNotRepeatPaymentOrStockReduction": true,
+    "sourceArchiveUnchanged": true,
+    "proofs": [
+      "results/browser-stock-mysql-en.json",
+      "results/browser-stock-mysql-fr.json"
+    ]
   }
 }

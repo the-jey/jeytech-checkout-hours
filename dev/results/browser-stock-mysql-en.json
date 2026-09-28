@@ -1,0 +1,99 @@
+{
+  "testedAt": "2026-09-28T14:16:04.534Z",
+  "archiveSha256": "7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49",
+  "versions": {
+    "wp": "7.1.2",
+    "wc": "11.1.2",
+    "php": "8.3.6"
+  },
+  "storage": "yes",
+  "database": "10.11.14-MariaDB-0ubuntu0.24.04.1",
+  "reports": [
+    {
+      "kind": "classic",
+      "mode": "closed",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "stockBefore": 100,
+      "stockAfter": 100,
+      "noPaymentCall": true,
+      "noOrderMutation": true,
+      "reservationsPreserved": true
+    },
+    {
+      "kind": "classic",
+      "mode": "open",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "orderId": 15,
+      "orderReceived": true,
+      "stockBefore": 100,
+      "stockAfter": 99,
+      "stockReducedExactlyOnce": true,
+      "gatewayCalledOnce": true,
+      "reservationReleased": true,
+      "receiptReloadPreservesStockAndGatewayCount": true
+    },
+    {
+      "kind": "classic",
+      "mode": "warn",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "orderId": 16,
+      "orderReceived": true,
+      "stockBefore": 99,
+      "stockAfter": 98,
+      "stockReducedExactlyOnce": true,
+      "gatewayCalledOnce": true,
+      "reservationReleased": true,
+      "receiptReloadPreservesStockAndGatewayCount": true
+    },
+    {
+      "kind": "blocks",
+      "mode": "closed",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "stockBefore": 98,
+      "stockAfter": 98,
+      "noPaymentCall": true,
+      "noOrderMutation": true,
+      "reservationsPreserved": true
+    },
+    {
+      "kind": "blocks",
+      "mode": "open",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "orderId": 17,
+      "orderReceived": true,
+      "stockBefore": 98,
+      "stockAfter": 97,
+      "stockReducedExactlyOnce": true,
+      "gatewayCalledOnce": true,
+      "reservationReleased": true,
+      "receiptReloadPreservesStockAndGatewayCount": true
+    },
+    {
+      "kind": "blocks",
+      "mode": "warn",
+      "locale": "en",
+      "nativeSubmission": true,
+      "managedStock": true,
+      "orderId": 18,
+      "orderReceived": true,
+      "stockBefore": 97,
+      "stockAfter": 96,
+      "stockReducedExactlyOnce": true,
+      "gatewayCalledOnce": true,
+      "reservationReleased": true,
+      "receiptReloadPreservesStockAndGatewayCount": true
+    }
+  ],
+  "failures": 0,
+  "noMailOrExternalPayment": true
+}

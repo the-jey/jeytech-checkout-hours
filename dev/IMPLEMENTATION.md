@@ -36,3 +36,7 @@ Sandbox `ad2d7f5f-f43c-465a-b7bc-f045cec68f22` and Live `9f3a7e38-78b8-4e94-b81b
 The authenticated portal still confirms that the #4 review reply was received and the Plugins Team must act. Do not resubmit #4 or ask the user to send its reply again. #5 is prepared, not submitted; the official FAQ generally permits one pending submission at a time. Recheck the name and slug at the actual submission, publish #4 through its SVN once approved, then upload the tested #5 ZIP and verify the assigned slug and downloaded submission. See [submission-status.json](submission-status.json).
 
 No Pro product, price or sale was added for Checkout Hours.
+
+## Additional native database verification
+
+On 28 September 2026 the unchanged production ZIP passed 12 additional real native EN/FR classic/Blocks inventory scenarios on PHP 8.3.6 / MariaDB 10.11.14 / HPOS. Eight positive stock-managed orders and four rejected orders were checked, including reservation release and idempotent receipt reload. See [TESTING.md](TESTING.md) and the `results/browser-stock-mysql-*.json` proofs. No production code or archive changed.

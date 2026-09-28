@@ -17,3 +17,9 @@ French test catalogs are copied separately to `wp-content/languages/plugins`; th
 Plugin Check includes all available static and experimental checks. Its runtime suite needs a second database unavailable in Playground SQLite; the native functional/browser suites provide the runtime checks here.
 
 Development endpoints, gateway counters, mail interception, blueprints, screenshots and reports are excluded from the plugin ZIP. Never install the development MU fixture on a production shop.
+
+## Native managed inventory, 28 September 2026
+
+`browser-stock-mysql.mjs en|fr` additionally runs the exact unchanged 1.0.0 ZIP on WordPress 7.1.2 / WooCommerce 11.1.2 / native PHP 8.3.6 / MariaDB 10.11.14 / HPOS. Twelve real native classic/Blocks closed/open/warning scenarios pass in EN/FR. The same stock-managed virtual product is used for accepted and rejected orders. Eight accepted BACS orders each reduce inventory once and release the order reservation; reloading the receipt does not repeat the gateway or reduction. Four rejected orders preserve inventory, reservations, order IDs and gateway count. All mail is intercepted; no transfer is initiated.
+
+Fixtures and the isolated native toolchain remain under `/home/jey/.local/state/jeytech/wordpress-mysql/`; the server-side MU helpers and unsigned state endpoint are localhost-only development fixtures excluded from the ZIP. Reports are in `results/browser-stock-mysql-en.json` and `results/browser-stock-mysql-fr.json`. This additional run resolves positive stock coverage on native PHP 8.3/HPOS; it does not add native PHP 7.4/post-storage inventory coverage.

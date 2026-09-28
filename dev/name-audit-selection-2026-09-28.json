@@ -1,0 +1,105 @@
+{
+  "checkedAt": "2026-09-28T12:14:37.498650+00:00",
+  "proposedOriginalName": "Store Hours Guard for WooCommerce",
+  "brandedOriginalName": "JeyTech Store Hours Guard for WooCommerce",
+  "originalExactNameFound": false,
+  "closeExistingNames": [
+    {
+      "name": "ShopHours Guard for WooCommerce",
+      "slug": "shophours-guard-for-woocommerce",
+      "url": "https://wordpress.org/plugins/shophours-guard-for-woocommerce/",
+      "similarityAssessment": "Very close name and same scheduling/order-blocking purpose; recommend a different name."
+    },
+    {
+      "name": "Store Hours for WooCommerce",
+      "slug": "order-hours-scheduler-for-woocommerce",
+      "url": "https://wordpress.org/plugins/order-hours-scheduler-for-woocommerce/"
+    }
+  ],
+  "recommendedName": "JeyTech Checkout Hours for WooCommerce",
+  "recommendedSlug": "jeytech-checkout-hours",
+  "recommendedNameSelectedByUser": true,
+  "exactNamesFoundInWebSearches": false,
+  "wordpressSearchResults": [
+    {
+      "search": "Store Hours Guard",
+      "inspectedResults": 335,
+      "exactMatches": 0
+    },
+    {
+      "search": "ShopHours Guard",
+      "inspectedResults": 1,
+      "exactMatches": 1
+    },
+    {
+      "search": "Checkout Hours",
+      "inspectedResults": 1127,
+      "exactMatches": 0,
+      "caveat": "API pagination totals varied across requests; no complete-directory census claimed."
+    },
+    {
+      "search": "JeyTech Store Hours Guard",
+      "inspectedResults": 1,
+      "exactMatches": 0
+    },
+    {
+      "search": "JeyTech Checkout Hours",
+      "inspectedResults": 1,
+      "exactMatches": 0
+    }
+  ],
+  "slugChecks": [
+    {
+      "slug": "jeytech-store-hours-guard",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-store-hours-guard"
+    },
+    {
+      "slug": "store-hours-guard",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=store-hours-guard"
+    },
+    {
+      "slug": "jeytech-store-hours-guard-for-woocommerce",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-store-hours-guard-for-woocommerce"
+    },
+    {
+      "slug": "store-hours-guard-for-woocommerce",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=store-hours-guard-for-woocommerce"
+    },
+    {
+      "slug": "jeytech-checkout-hours",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-checkout-hours"
+    },
+    {
+      "slug": "checkout-hours",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=checkout-hours"
+    },
+    {
+      "slug": "jeytech-checkout-hours-for-woocommerce",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-checkout-hours-for-woocommerce"
+    },
+    {
+      "slug": "checkout-hours-for-woocommerce",
+      "httpStatus": 404,
+      "error": "Plugin not found.",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=checkout-hours-for-woocommerce"
+    }
+  ],
+  "finalSlugAssignment": "Determined by WordPress.org at submission; absence from the public API does not reserve it.",
+  "persistOnImplementation": "Write dev/name-audit-2026-09-28.json in the selected new Free repository, and recheck before submission.",
+  "repoMutated": false,
+  "userAcceptedName": "JeyTech Checkout Hours for WooCommerce"
+}

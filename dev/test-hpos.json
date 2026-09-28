@@ -1,0 +1,55 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "7.1.2"
+  },
+  "steps": [
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://downloads.wordpress.org/plugin/woocommerce.11.1.2.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp language core install fr_FR"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp wc hpos enable"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/languages/plugins"
+    },
+    {
+      "step": "cp",
+      "fromPath": "/wordpress/wp-content/ch-dev-languages/jeytech-checkout-hours-fr_FR.mo",
+      "toPath": "/wordpress/wp-content/languages/plugins/jeytech-checkout-hours-fr_FR.mo"
+    },
+    {
+      "step": "cp",
+      "fromPath": "/wordpress/wp-content/ch-dev-languages/jeytech-checkout-hours-fr_FR.l10n.php",
+      "toPath": "/wordpress/wp-content/languages/plugins/jeytech-checkout-hours-fr_FR.l10n.php"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "jeytech-checkout-hours/jeytech-checkout-hours.php"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "jeytech_ch_test_matrix": "hpos"
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp eval-file /wordpress/wp-content/ch-dev/scenario-test.php"
+    }
+  ]
+}

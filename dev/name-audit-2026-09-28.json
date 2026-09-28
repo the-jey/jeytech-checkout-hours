@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-28T12:48:37.370881+00:00",
+  "selectedName": "JeyTech Checkout Hours for WooCommerce",
+  "selectedSlug": "jeytech-checkout-hours",
+  "slugChecks": [
+    {
+      "slug": "jeytech-checkout-hours",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-checkout-hours",
+      "httpStatus": 404,
+      "result": {
+        "error": "Plugin not found."
+      }
+    },
+    {
+      "slug": "jeytech-checkout-hours-for-woocommerce",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=jeytech-checkout-hours-for-woocommerce",
+      "httpStatus": 404,
+      "result": {
+        "error": "Plugin not found."
+      }
+    },
+    {
+      "slug": "checkout-hours",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=checkout-hours",
+      "httpStatus": 404,
+      "result": {
+        "error": "Plugin not found."
+      }
+    },
+    {
+      "slug": "checkout-hours-for-woocommerce",
+      "url": "https://api.wordpress.org/plugins/info/1.2/?action=plugin_information&request%5Bslug%5D=checkout-hours-for-woocommerce",
+      "httpStatus": 404,
+      "result": {
+        "error": "Plugin not found."
+      }
+    }
+  ],
+  "webSearches": [
+    "\"JeyTech Checkout Hours\" WooCommerce",
+    "\"Checkout Hours for WooCommerce\" plugin"
+  ],
+  "closeExistingNames": [
+    {
+      "name": "ShopHours Guard for WooCommerce",
+      "slug": "shophours-guard-for-woocommerce"
+    },
+    {
+      "name": "Store Hours for WooCommerce",
+      "slug": "order-hours-scheduler-for-woocommerce"
+    }
+  ],
+  "conclusion": "Selected distinctive JeyTech name. Public API absence does not reserve the slug or establish trademark clearance."
+}

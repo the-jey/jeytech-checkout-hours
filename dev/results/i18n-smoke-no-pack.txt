@@ -1,0 +1,1 @@
+PASS English fallback without a pack and English restoration. WP 6.6.2, PHP 7.4.33.

@@ -1,0 +1,10 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"steps": [
+		{ "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" }, "options": { "activate": true } },
+		{ "step": "installPlugin", "pluginData": { "resource": "wordpress.org/plugins", "slug": "plugin-check" }, "options": { "activate": true } },
+		{ "step": "activatePlugin", "pluginPath": "jeytech-checkout-hours/jeytech-checkout-hours.php" },
+		{ "step": "runPHP", "code": "<?php require_once '/wordpress/wp-load.php'; require '/wordpress/wp-content/ch-dev/run-plugin-check.php';" }
+	]
+}

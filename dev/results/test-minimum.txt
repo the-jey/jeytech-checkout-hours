@@ -1,0 +1,75 @@
+PASS  Default installation does not restrict checkout
+PASS  Opening/closing/lunch boundary 08:59:59
+PASS  Opening/closing/lunch boundary 09:00:00
+PASS  Opening/closing/lunch boundary 11:59:59
+PASS  Opening/closing/lunch boundary 12:00:00
+PASS  Opening/closing/lunch boundary 13:59:59
+PASS  Opening/closing/lunch boundary 14:00:00
+PASS  Opening/closing/lunch boundary 16:59:59
+PASS  Opening/closing/lunch boundary 17:00:00
+PASS  Lunch next opening is same-day 14:00
+PASS  Closing next opening wraps to next Monday
+PASS  Sunday overnight/week wrap 2026-09-27T21:59:59+02:00
+PASS  Sunday overnight/week wrap 2026-09-27T22:00:00+02:00
+PASS  Sunday overnight/week wrap 2026-09-28T00:00:00+02:00
+PASS  Sunday overnight/week wrap 2026-09-28T01:59:59+02:00
+PASS  Sunday overnight/week wrap 2026-09-28T02:00:00+02:00
+PASS  24-hour day includes midnight and last second
+PASS  24-hour day closes exactly at following midnight
+PASS  DST gap next opening is first real 03:00 instant
+PASS  DST gap remains open after skipped opening
+PASS  Entire skipped range waits for next real Sunday
+PASS  DST repeated first and second hours follow same wall-clock schedule
+PASS  DST next opening resolves second 02:30 occurrence
+PASS  DST clock rewind itself can reopen a range (actual 2026-10-25T02:00:00+01:00)
+PASS  Fixed-offset timezone without transition table works
+PASS  Empty disabled schedule has no opening
+PASS  Invalid/malformed schedule rejected 0
+PASS  Invalid/malformed schedule rejected 1
+PASS  Invalid/malformed schedule rejected 2
+PASS  Invalid/malformed schedule rejected 3
+PASS  Invalid/malformed schedule rejected 4
+PASS  Invalid/malformed schedule rejected 5
+PASS  Invalid/malformed schedule rejected 6
+PASS  Malformed whole schedule rejected
+PASS  Overlapping daily ranges rejected
+PASS  Overlapping Sunday/Monday overnight rejected
+PASS  Adjacent ranges accepted
+PASS  Enabled empty schedule cannot be saved
+PASS  Shared live state blocks only closed block mode
+PASS  Invalid save retains previous valid configuration
+PASS  Invalid mode retains previous configuration
+PASS  Repeated Settings API sanitization is stable
+PASS  Closed hours still allow adding to cart
+PASS  Closed hours still allow changing cart quantity
+PASS  Native classic validation hook rejects closed checkout
+PASS  Direct Store API closed order rejected before route processing /wc/store/v1/checkout
+PASS  Direct Store API closed order rejected before route processing /wc/store/checkout
+PASS  Direct Store API closed order rejected before route processing /wc/store/v1/checkout/
+PASS  Rejected checkouts leave orders and stock untouched
+PASS  Rejected checkout preserves cart
+PASS  Existing-order/cart/read routes untouched GET /wc/store/v1/checkout
+PASS  Existing-order/cart/read routes untouched PUT /wc/store/v1/checkout
+PASS  Existing-order/cart/read routes untouched POST /wc/store/v1/checkout/123
+PASS  Existing-order/cart/read routes untouched POST /wc/store/v1/cart/add-item
+PASS  Existing-order/cart/read routes untouched POST /wc/store/v1/cart/update-item
+PASS  Earlier REST errors are preserved
+PASS  Public endpoint returns live state without authentication
+PASS  Status endpoint forbids caching
+PASS  Status endpoint does not expose editable settings
+PASS  Status endpoint is read-only
+PASS  Cached shortcode contains neutral live placeholder
+PASS  Warning mode allows native classic orders and supplies notice
+PASS  Warning mode passes Store API new orders
+PASS  Open mode allows server checkout
+PASS  Disabled mode hides notices and allows checkout
+PASS  Customer cannot access schedule administration
+PASS  Settings form uses nonce and WooCommerce capability
+PASS  Forged settings nonce rejected by native verifier
+PASS  Admin styles are scoped to plugin screen
+PASS  Own admin screen loads scoped assets
+PASS  Native external French pack translates editor and checkout
+PASS  Native English restoration works
+PASS  Actual HPOS/post storage matches selected matrix
+Versions: WordPress 6.6.2, WooCommerce 9.6.2, PHP 7.4.33, matrix minimum
+Result: 73 passed, 0 failed. No email or external payment.

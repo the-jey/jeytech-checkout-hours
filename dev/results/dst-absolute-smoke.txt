@@ -1,0 +1,1 @@
+PASS PHP 7.4.33 rewind reopens exactly at UTC 1792890000.

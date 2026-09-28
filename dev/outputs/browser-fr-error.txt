@@ -1,0 +1,290 @@
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Vous pouvez tout de même commander/. Input:
+
+'Aller au contenu\n' +
+  '\n' +
+  'Boutique de démonstration JeyTech\n' +
+  '\n' +
+  '«Carnet de démonstration JeyTech» a été ajouté à votre panier.\n' +
+  'Voir le panier\n' +
+  'Coordonnées\n' +
+  'Coordonnées\n' +
+  'Adresse e-mail\n' +
+  '\n' +
+  'Vous validez votre commande en tant qu’invité.\n' +
+  '\n' +
+  'Adresse de facturation\n' +
+  'Adresse de facturation\n' +
+  'Pays/Région\n' +
+  'Sélectionner un pays/région\n' +
+  'Afghanistan\n' +
+  'Afrique du Sud\n' +
+  'Åland\n' +
+  'Albanie\n' +
+  'Algérie\n' +
+  'Allemagne\n' +
+  'Andorre\n' +
+  'Angola\n' +
+  'Anguilla\n' +
+  'Antarctique\n' +
+  'Antigua-et-Barbuda\n' +
+  'Arabie saoudite\n' +
+  'Argentine\n' +
+  'Arménie\n' +
+  'Aruba\n' +
+  'Australie\n' +
+  'Autriche\n' +
+  'Azerbaïdjan\n' +
+  'Bahamas\n' +
+  'Bahrain\n' +
+  'Bangladesh\n' +
+  'Barbade\n' +
+  'Belau\n' +
+  'Belgique\n' +
+  'Belize\n' +
+  'Bénin\n' +
+  'Bermudes\n' +
+  'Bhoutan\n' +
+  'Biélorussie\n' +
+  'Bolivie\n' +
+  'Bonaire, Saint-Eustache et Saba\n' +
+  'Bosnie-Herzégovine\n' +
+  'Botswana\n' +
+  'Brésil\n' +
+  'Brunei\n' +
+  'Bulgarie\n' +
+  'Burkina Faso\n' +
+  'Burundi\n' +
+  'Cambodge\n' +
+  'Cameroun\n' +
+  'Canada\n' +
+  'Cap-Vert\n' +
+  'Chili\n' +
+  'Chine\n' +
+  'Chypre\n' +
+  'Colombie\n' +
+  'Comores\n' +
+  'Congo (Brazzaville)\n' +
+  'Congo (Kinshasa)\n' +
+  'Corée du Nord\n' +
+  'Corée du Sud\n' +
+  'Costa Rica\n' +
+  'Côte d’Ivoire\n' +
+  'Croatie\n' +
+  'Cuba\n' +
+  'Curaçao\n' +
+  'Danemark\n' +
+  'Djibouti\n' +
+  'Dominique\n' +
+  'Égypte\n' +
+  'Émirats arabes unis\n' +
+  'Équateur\n' +
+  'Érythrée\n' +
+  'Espagne\n' +
+  'Estonie\n' +
+  'Eswatini\n' +
+  'États-Unis (USA)\n' +
+  'Éthiopie\n' +
+  'Fidji\n' +
+  'Finlande\n' +
+  'France\n' +
+  'Gabon\n' +
+  'Gambie\n' +
+  'Géorgie\n' +
+  'Géorgie du Sud / îles Sandwich\n' +
+  'Ghana\n' +
+  'Gibraltar\n' +
+  'Grèce\n' +
+  'Grenade\n' +
+  'Groenland\n' +
+  'Guadeloupe\n' +
+  'Guam\n' +
+  'Guatemala\n' +
+  'Guernesey\n' +
+  'Guinée\n' +
+  'Guinée équatoriale\n' +
+  'Guinée-Bissau\n' +
+  'Guyana\n' +
+  'Guyane\n' +
+  'Haïti\n' +
+  'Honduras\n' +
+  'Hong Kong\n' +
+  'Hongrie\n' +
+  'Île Bouvet\n' +
+  'Île Christmas\n' +
+  'Île de Man\n' +
+  'Île Maurice\n' +
+  'Île Norfolk\n' +
+  'Îles Caïmans\n' +
+  'Îles Cocos\n' +
+  'Îles Cook\n' +
+  'Îles Falkland\n' +
+  'Îles Féroé\n' +
+  'Îles Heard-et-MacDonald\n' +
+  'Îles Mariannes du Nord\n' +
+  'Îles Marshall\n' +
+  'Îles Mineures éloignées des États-Unis\n' +
+  'Îles Salomon\n' +
+  'Îles Turques-et-Caïques\n' +
+  'Inde\n' +
+  'Indonésie\n' +
+  'Iran\n' +
+  'Iraq\n' +
+  'Irlande\n' +
+  'Islande\n' +
+  'Israël\n' +
+  'Italie\n' +
+  'Jamaïque\n' +
+  'Japon\n' +
+  'Jersey\n' +
+  'Jordanie\n' +
+  'Kazakhstan\n' +
+  'Kenya\n' +
+  'Kirghizistan\n' +
+  'Kiribati\n' +
+  'Kosovo\n' +
+  'Koweït\n' +
+  'La Réunion\n' +
+  'Laos\n' +
+  'Lesotho\n' +
+  'Lettonie\n' +
+  'Liban\n' +
+  'Liberia\n' +
+  'Libye\n' +
+  'Liechtenstein\n' +
+  'Lituanie\n' +
+  'Luxembourg\n' +
+  'Macao\n' +
+  'Macédoine du Nord\n' +
+  'Madagascar\n' +
+  'Malaisie\n' +
+  'Malawi\n' +
+  'Maldives\n' +
+  'Mali\n' +
+  'Malte\n' +
+  'Maroc\n' +
+  'Martinique\n' +
+  'Mauritanie\n' +
+  'Mayotte\n' +
+  'Mexique\n' +
+  'Micronésie\n' +
+  'Moldavie\n' +
+  'Monaco\n' +
+  'Mongolie\n' +
+  'Monténégro\n' +
+  'Montserrat\n' +
+  'Mozambique\n' +
+  'Myanmar\n' +
+  'Namibie\n' +
+  'Nauru\n' +
+  'Népal\n' +
+  'Nicaragua\n' +
+  'Niger\n' +
+  'Nigéria\n' +
+  'Niue\n' +
+  'Norvège\n' +
+  'Nouvelle-Calédonie\n' +
+  'Nouvelle-Zélande\n' +
+  'Oman\n' +
+  'Ouganda\n' +
+  'Ouzbékistan\n' +
+  'Pakistan\n' +
+  'Panama\n' +
+  'Papouasie-Nouvelle-Guinée\n' +
+  'Paraguay\n' +
+  'Pays-Bas\n' +
+  'Pérou\n' +
+  'Philippines\n' +
+  'Pitcairn\n' +
+  'Pologne\n' +
+  'Polynésie française\n' +
+  'Porto Rico\n' +
+  'Portugal\n' +
+  'Qatar\n' +
+  'République centrafricaine\n' +
+  'République dominicaine\n' +
+  'République tchèque\n' +
+  'Roumanie\n' +
+  'Royaume-Uni (UK)\n' +
+  'Russie\n' +
+  'Rwanda\n' +
+  'Sahara occidental\n' +
+  'Saint Barthélemy\n' +
+  'Saint-Kitts-et-Nevis\n' +
+  'Saint-Marin\n' +
+  'Saint-Martin (Antilles françaises)\n' +
+  'Saint-Martin (partie néerlandaise)\n' +
+  'Saint-Pierre-et-Miquelon\n' +
+  'Saint-Vincent-et-les-Grenadines\n' +
+  'Sainte-Hélène\n' +
+  'Sainte-Lucie\n' +
+  'Salvador\n' +
+  'Samoa\n' +
+  'Samoa américaines\n' +
+  'Sao Tomé-et-Principe\n' +
+  'Sénégal\n' +
+  'Serbie\n' +
+  'Seychelles\n' +
+  'Sierra Leone\n' +
+  'Singapour\n' +
+  'Slovaquie\n' +
+  'Slovénie\n' +
+  'Somalie\n' +
+  'Soudan\n' +
+  'Soudan du Sud\n' +
+  'Sri Lanka\n' +
+  'Suède\n' +
+  'Suisse\n' +
+  'Suriname\n' +
+  'Svalbard et Jan Mayen\n' +
+  'Syrie\n' +
+  'Tadjikistan\n' +
+  'Taïwan\n' +
+  'Tanzanie\n' +
+  'Tchad\n' +
+  'Terres australes et antarctiques françaises\n' +
+  'Territoire britannique de l’océan Indien\n' +
+  'Territoire Palestinien\n' +
+  'Thaïlande\n' +
+  'Timor oriental\n' +
+  'Togo\n' +
+  'Tokelau\n' +
+  'Tonga\n' +
+  'Trinité-et-Tobago\n' +
+  'Tunisie\n' +
+  'Turkménistan\n' +
+  'Turquie\n' +
+  'Tuvalu\n' +
+  'Ukraine\n' +
+  'Uruguay\n' +
+  'Vanuatu\n' +
+  'Vatican\n' +
+  'Venezuela\n' +
+  'Vietnam\n' +
+  'Virgin Islands (British)\n' +
+  'Virgin Islands (US)\n' +
+  'Wallis-et-Futuna\n' +
+  'Yémen\n' +
+  'Zambie\n' +
+  'Zimbabwe\n' +
+  'Prénom\n' +
+  'Nom\n' +
+  'Adresse\n' +
+  '+ Ajouter appartement, suite, etc.\n' +
+  'Code postal\n' +
+  'Ville\n' +
+  'Numéro de téléphone (facultatif)\n' +
+  'Options de paiement\n' +
+  'Options de paiement\n' +
+  'Virement bancaire\n' +
+  'Paiement de démonstration, sans transfert.\n' +
+  'Ajouter une note à votre commande\n' +
+  'En continuant vos achats, vous acceptez nos Conditions générales et notre Politique de confidentialité\n' +
+  'Commander\n' +
+  '\n' +
+  'Résumé de la commande\n' +
+  '\n' +
+  'Ajouter des codes promo\n' +
+  'Sous-total\n' +
+  'Total'
+
+    at file:///home/jey/Documents/jeytech-pluggins/wordpress-pluggins/jeytech-checkout-hours/dev/browser-test.mjs:54:27

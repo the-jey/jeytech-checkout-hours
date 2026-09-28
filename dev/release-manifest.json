@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-09-28T13:39:08.001569+00:00",
+  "plugin": "jeytech-checkout-hours",
+  "version": "1.0.0",
+  "sha256": "7a5d962ca3224700ae817530cbdc17172780574908e7a1118790fc0eeb758c49",
+  "fileCount": 17,
+  "sourceAndMountedProductionFilesMatch": true,
+  "translationCatalogsIncluded": false,
+  "files": {
+    "jeytech-checkout-hours/jeytech-checkout-hours.php": "75aee6cea04b9d5d13995941b1d3fa8e72554b5e84d86efa30511fc0acee3bc8",
+    "jeytech-checkout-hours/src/Checkout.php": "dce1aaf1de7a9d1f4c946968f0101eba963d077f60d9f79d7b050da1ca71eb1b",
+    "jeytech-checkout-hours/src/Settings.php": "54eb215b3b37042ea7b117d8981f009537971712be9175930cb5b734015de983",
+    "jeytech-checkout-hours/src/Schedule.php": "d58250645bde62bd3bc64f96ed19d8da23362e48ae599b3c4f9fc44a41c59227",
+    "jeytech-checkout-hours/src/Plugin.php": "91dbf06a4aa15103cff78a33aa8ec14d70147915456c28c15c18d9a9ece8d58d",
+    "jeytech-checkout-hours/src/Admin/SettingsPage.php": "3d1b5c39814edd31ba549e10c2cc5aff7a7c6fdce534ee6861b1c2f98b11dc4d",
+    "jeytech-checkout-hours/src/Status.php": "9deaabf19210231aa11d40d8167691e66d9c516034ec21a2de133fd5ab0fc161",
+    "jeytech-checkout-hours/src/Frontend.php": "7237d32717a0ddc129aa8a987c8001db996dcecb42326f892705c47cfe6e6f58",
+    "jeytech-checkout-hours/src/Core/Compat.php": "e1af9582fca697ac1c63ab22386aedfb69c6aabfa3c5f073ed8835a3d240a04f",
+    "jeytech-checkout-hours/src/Core/Requirements.php": "33fd4c904765156bb9d3c5c95b1a3fcabd9306fb15ec7de0a36c571cbf5a3072",
+    "jeytech-checkout-hours/src/Core/Autoloader.php": "67c68379800ad8f896cb1dec988d803d4452299c1cbbe2ffc202b747e995049f",
+    "jeytech-checkout-hours/LICENSE": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "jeytech-checkout-hours/assets/status.css": "0f90b9e33272416fda5a3d2eb4b0e39a4aeba5c363606d12d6e14b0a109a494d",
+    "jeytech-checkout-hours/assets/admin.css": "1e8a734c08e2bd83092728bdfc0ef86b9cb626d3b28dd66af244f9377dfe2563",
+    "jeytech-checkout-hours/assets/status.js": "627a302097c43278ee6dcaecd2d026007cc46c6ace6467e545f690165437c1f5",
+    "jeytech-checkout-hours/assets/admin.js": "dd7b99e6bb1a51b60a6e60d0ba1710a64ab479df1b772654460d6ddad2362b27",
+    "jeytech-checkout-hours/readme.txt": "9339a296ba0c75f7d4008b145ba15891060f9e992507702b1d64d531439192eb"
+  }
+}

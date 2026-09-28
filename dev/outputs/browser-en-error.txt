@@ -1,0 +1,290 @@
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /You can still place an order/. Input:
+
+'Skip to content\n' +
+  '\n' +
+  'JeyTech demo shop\n' +
+  '\n' +
+  '“JeyTech demo notebook” has been added to your cart.\n' +
+  'View cart\n' +
+  'Contact information\n' +
+  'Contact information\n' +
+  'Email address\n' +
+  '\n' +
+  'You are currently checking out as a guest.\n' +
+  '\n' +
+  'Billing address\n' +
+  'Billing address\n' +
+  'Country/Region\n' +
+  'Select a country/region\n' +
+  'Afghanistan\n' +
+  'Åland Islands\n' +
+  'Albania\n' +
+  'Algeria\n' +
+  'American Samoa\n' +
+  'Andorra\n' +
+  'Angola\n' +
+  'Anguilla\n' +
+  'Antarctica\n' +
+  'Antigua and Barbuda\n' +
+  'Argentina\n' +
+  'Armenia\n' +
+  'Aruba\n' +
+  'Australia\n' +
+  'Austria\n' +
+  'Azerbaijan\n' +
+  'Bahamas\n' +
+  'Bahrain\n' +
+  'Bangladesh\n' +
+  'Barbados\n' +
+  'Belarus\n' +
+  'Belau\n' +
+  'Belgium\n' +
+  'Belize\n' +
+  'Benin\n' +
+  'Bermuda\n' +
+  'Bhutan\n' +
+  'Bolivia\n' +
+  'Bonaire, Saint Eustatius and Saba\n' +
+  'Bosnia and Herzegovina\n' +
+  'Botswana\n' +
+  'Bouvet Island\n' +
+  'Brazil\n' +
+  'British Indian Ocean Territory\n' +
+  'Brunei\n' +
+  'Bulgaria\n' +
+  'Burkina Faso\n' +
+  'Burundi\n' +
+  'Cambodia\n' +
+  'Cameroon\n' +
+  'Canada\n' +
+  'Cape Verde\n' +
+  'Cayman Islands\n' +
+  'Central African Republic\n' +
+  'Chad\n' +
+  'Chile\n' +
+  'China\n' +
+  'Christmas Island\n' +
+  'Cocos (Keeling) Islands\n' +
+  'Colombia\n' +
+  'Comoros\n' +
+  'Congo (Brazzaville)\n' +
+  'Congo (Kinshasa)\n' +
+  'Cook Islands\n' +
+  'Costa Rica\n' +
+  'Croatia\n' +
+  'Cuba\n' +
+  'Curaçao\n' +
+  'Cyprus\n' +
+  'Czech Republic\n' +
+  'Denmark\n' +
+  'Djibouti\n' +
+  'Dominica\n' +
+  'Dominican Republic\n' +
+  'Ecuador\n' +
+  'Egypt\n' +
+  'El Salvador\n' +
+  'Equatorial Guinea\n' +
+  'Eritrea\n' +
+  'Estonia\n' +
+  'Eswatini\n' +
+  'Ethiopia\n' +
+  'Falkland Islands\n' +
+  'Faroe Islands\n' +
+  'Fiji\n' +
+  'Finland\n' +
+  'France\n' +
+  'French Guiana\n' +
+  'French Polynesia\n' +
+  'French Southern Territories\n' +
+  'Gabon\n' +
+  'Gambia\n' +
+  'Georgia\n' +
+  'Germany\n' +
+  'Ghana\n' +
+  'Gibraltar\n' +
+  'Greece\n' +
+  'Greenland\n' +
+  'Grenada\n' +
+  'Guadeloupe\n' +
+  'Guam\n' +
+  'Guatemala\n' +
+  'Guernsey\n' +
+  'Guinea\n' +
+  'Guinea-Bissau\n' +
+  'Guyana\n' +
+  'Haiti\n' +
+  'Heard Island and McDonald Islands\n' +
+  'Honduras\n' +
+  'Hong Kong\n' +
+  'Hungary\n' +
+  'Iceland\n' +
+  'India\n' +
+  'Indonesia\n' +
+  'Iran\n' +
+  'Iraq\n' +
+  'Ireland\n' +
+  'Isle of Man\n' +
+  'Israel\n' +
+  'Italy\n' +
+  'Ivory Coast\n' +
+  'Jamaica\n' +
+  'Japan\n' +
+  'Jersey\n' +
+  'Jordan\n' +
+  'Kazakhstan\n' +
+  'Kenya\n' +
+  'Kiribati\n' +
+  'Kosovo\n' +
+  'Kuwait\n' +
+  'Kyrgyzstan\n' +
+  'Laos\n' +
+  'Latvia\n' +
+  'Lebanon\n' +
+  'Lesotho\n' +
+  'Liberia\n' +
+  'Libya\n' +
+  'Liechtenstein\n' +
+  'Lithuania\n' +
+  'Luxembourg\n' +
+  'Macao\n' +
+  'Madagascar\n' +
+  'Malawi\n' +
+  'Malaysia\n' +
+  'Maldives\n' +
+  'Mali\n' +
+  'Malta\n' +
+  'Marshall Islands\n' +
+  'Martinique\n' +
+  'Mauritania\n' +
+  'Mauritius\n' +
+  'Mayotte\n' +
+  'Mexico\n' +
+  'Micronesia\n' +
+  'Moldova\n' +
+  'Monaco\n' +
+  'Mongolia\n' +
+  'Montenegro\n' +
+  'Montserrat\n' +
+  'Morocco\n' +
+  'Mozambique\n' +
+  'Myanmar\n' +
+  'Namibia\n' +
+  'Nauru\n' +
+  'Nepal\n' +
+  'Netherlands\n' +
+  'New Caledonia\n' +
+  'New Zealand\n' +
+  'Nicaragua\n' +
+  'Niger\n' +
+  'Nigeria\n' +
+  'Niue\n' +
+  'Norfolk Island\n' +
+  'North Korea\n' +
+  'North Macedonia\n' +
+  'Northern Mariana Islands\n' +
+  'Norway\n' +
+  'Oman\n' +
+  'Pakistan\n' +
+  'Palestinian Territory\n' +
+  'Panama\n' +
+  'Papua New Guinea\n' +
+  'Paraguay\n' +
+  'Peru\n' +
+  'Philippines\n' +
+  'Pitcairn\n' +
+  'Poland\n' +
+  'Portugal\n' +
+  'Puerto Rico\n' +
+  'Qatar\n' +
+  'Reunion\n' +
+  'Romania\n' +
+  'Russia\n' +
+  'Rwanda\n' +
+  'Saint Barthélemy\n' +
+  'Saint Helena\n' +
+  'Saint Kitts and Nevis\n' +
+  'Saint Lucia\n' +
+  'Saint Martin (Dutch part)\n' +
+  'Saint Martin (French part)\n' +
+  'Saint Pierre and Miquelon\n' +
+  'Saint Vincent and the Grenadines\n' +
+  'Samoa\n' +
+  'San Marino\n' +
+  'São Tomé and Príncipe\n' +
+  'Saudi Arabia\n' +
+  'Senegal\n' +
+  'Serbia\n' +
+  'Seychelles\n' +
+  'Sierra Leone\n' +
+  'Singapore\n' +
+  'Slovakia\n' +
+  'Slovenia\n' +
+  'Solomon Islands\n' +
+  'Somalia\n' +
+  'South Africa\n' +
+  'South Georgia/Sandwich Islands\n' +
+  'South Korea\n' +
+  'South Sudan\n' +
+  'Spain\n' +
+  'Sri Lanka\n' +
+  'Sudan\n' +
+  'Suriname\n' +
+  'Svalbard and Jan Mayen\n' +
+  'Sweden\n' +
+  'Switzerland\n' +
+  'Syria\n' +
+  'Taiwan\n' +
+  'Tajikistan\n' +
+  'Tanzania\n' +
+  'Thailand\n' +
+  'Timor-Leste\n' +
+  'Togo\n' +
+  'Tokelau\n' +
+  'Tonga\n' +
+  'Trinidad and Tobago\n' +
+  'Tunisia\n' +
+  'Türkiye\n' +
+  'Turkmenistan\n' +
+  'Turks and Caicos Islands\n' +
+  'Tuvalu\n' +
+  'Uganda\n' +
+  'Ukraine\n' +
+  'United Arab Emirates\n' +
+  'United Kingdom (UK)\n' +
+  'United States (US)\n' +
+  'United States (US) Minor Outlying Islands\n' +
+  'Uruguay\n' +
+  'Uzbekistan\n' +
+  'Vanuatu\n' +
+  'Vatican\n' +
+  'Venezuela\n' +
+  'Vietnam\n' +
+  'Virgin Islands (British)\n' +
+  'Virgin Islands (US)\n' +
+  'Wallis and Futuna\n' +
+  'Western Sahara\n' +
+  'Yemen\n' +
+  'Zambia\n' +
+  'Zimbabwe\n' +
+  'First name\n' +
+  'Last name\n' +
+  'Address\n' +
+  '+ Add apartment, suite, etc.\n' +
+  'Postal code\n' +
+  'City\n' +
+  'Phone (optional)\n' +
+  'Payment options\n' +
+  'Payment options\n' +
+  'Bank transfer\n' +
+  'Demo payment; no transfer is sent.\n' +
+  'Add a note to your order\n' +
+  'By proceeding with your purchase you agree to our Terms and Conditions and Privacy Policy\n' +
+  'Place Order\n' +
+  '\n' +
+  'Order summary\n' +
+  '\n' +
+  'Add coupons\n' +
+  'Subtotal\n' +
+  'Total'
+
+    at file:///home/jey/Documents/jeytech-pluggins/wordpress-pluggins/jeytech-checkout-hours/dev/browser-test.mjs:54:27

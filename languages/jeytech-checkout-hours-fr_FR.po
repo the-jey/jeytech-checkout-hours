@@ -1,0 +1,231 @@
+# Copyright (C) 2026 JeyTech
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: JeyTech Checkout Hours for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jeytech-checkout-hours\n"
+"Last-Translator: JeyTech\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-28T12:57:45+00:00\n"
+"PO-Revision-Date: 2026-09-28 15:00+0200\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: jeytech-checkout-hours\n"
+
+#. Plugin Name of the plugin
+#: jeytech-checkout-hours.php
+msgid "JeyTech Checkout Hours for WooCommerce"
+msgstr "JeyTech Checkout Hours for WooCommerce"
+
+#. Description of the plugin
+#: jeytech-checkout-hours.php
+msgid "Set weekly checkout hours while keeping your catalog and cart available. Supports classic checkout and Checkout Blocks."
+msgstr "Définissez les horaires hebdomadaires de commande tout en gardant le catalogue et le panier disponibles. Compatible avec les caisses classique et à blocs."
+
+#. Author of the plugin
+#: jeytech-checkout-hours.php
+msgid "JeyTech"
+msgstr "JeyTech"
+
+#. Author URI of the plugin
+#: jeytech-checkout-hours.php
+msgid "https://jeytech.app"
+msgstr "https://jeytech.app"
+
+#: src/Admin/SettingsPage.php:16
+#: src/Admin/SettingsPage.php:51
+msgid "Checkout Hours"
+msgstr "Horaires de commande"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Monday"
+msgstr "Lundi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Friday"
+msgstr "Vendredi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Saturday"
+msgstr "Samedi"
+
+#: src/Admin/SettingsPage.php:30
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: src/Admin/SettingsPage.php:40
+msgid "Opening time"
+msgstr "Heure d’ouverture"
+
+#: src/Admin/SettingsPage.php:40
+msgid "Closing time"
+msgstr "Heure de fermeture"
+
+#: src/Admin/SettingsPage.php:40
+msgid "Remove time range"
+msgstr "Supprimer le créneau"
+
+#: src/Admin/SettingsPage.php:48
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: src/Admin/SettingsPage.php:48
+msgid "Checkout open"
+msgstr "Commandes ouvertes"
+
+#: src/Admin/SettingsPage.php:48
+msgid "Checkout closed"
+msgstr "Commandes fermées"
+
+#: src/Admin/SettingsPage.php:48
+msgid "Warning only"
+msgstr "Avertissement uniquement"
+
+#: src/Admin/SettingsPage.php:51
+msgid "Accept orders on your schedule. Keep your catalog and cart available."
+msgstr "Acceptez les commandes selon vos horaires. Gardez le catalogue et le panier disponibles."
+
+#: src/Admin/SettingsPage.php:58
+msgid "Order hours"
+msgstr "Horaires de commande"
+
+#: src/Admin/SettingsPage.php:59
+msgid "Enable checkout hours"
+msgstr "Activer les horaires de commande"
+
+#: src/Admin/SettingsPage.php:60
+msgid "Disabled on installation. Add an opening range before enabling."
+msgstr "Désactivé à l’installation. Ajoutez un créneau d’ouverture avant d’activer."
+
+#: src/Admin/SettingsPage.php:61
+msgid "Outside order hours"
+msgstr "En dehors des horaires"
+
+#: src/Admin/SettingsPage.php:62
+msgid "Block checkout"
+msgstr "Bloquer les commandes"
+
+#: src/Admin/SettingsPage.php:62
+msgid "Allow orders with a warning"
+msgstr "Autoriser les commandes avec un avertissement"
+
+#: src/Admin/SettingsPage.php:63
+msgid "Warning mode accepts orders normally; it does not schedule their processing."
+msgstr "Le mode avertissement accepte les commandes normalement ; il ne programme pas leur traitement."
+
+#: src/Admin/SettingsPage.php:64
+msgid "Show a sitewide closed-hours notice"
+msgstr "Afficher un avis de fermeture sur tout le site"
+
+#: src/Admin/SettingsPage.php:67
+msgid "Weekly schedule"
+msgstr "Horaires de la semaine"
+
+#: src/Admin/SettingsPage.php:68
+msgid "Use 24-hour HH:MM times. Blank days are closed. Add ranges for a lunch break. A closing time before opening continues into the next day."
+msgstr "Utilisez le format 24 h HH:MM. Les jours sans créneau sont fermés. Ajoutez des créneaux pour une pause déjeuner. Une fermeture avant l’ouverture se poursuit le lendemain."
+
+#: src/Admin/SettingsPage.php:71
+msgid "24 hours"
+msgstr "24 heures"
+
+#: src/Admin/SettingsPage.php:73
+msgid "+ Add range"
+msgstr "+ Ajouter un créneau"
+
+#: src/Admin/SettingsPage.php:77
+msgid "Opening times are included; closing times are excluded. Overlapping ranges cannot be saved."
+msgstr "Les heures d’ouverture sont incluses ; les heures de fermeture sont exclues. Les créneaux qui se chevauchent ne peuvent pas être enregistrés."
+
+#: src/Admin/SettingsPage.php:79
+msgid "Save checkout hours"
+msgstr "Enregistrer les horaires"
+
+#: src/Admin/SettingsPage.php:82
+msgid "LIVE STATUS"
+msgstr "ÉTAT ACTUEL"
+
+#: src/Admin/SettingsPage.php:82
+msgid "Store timezone"
+msgstr "Fuseau horaire de la boutique"
+
+#: src/Admin/SettingsPage.php:82
+msgid "This preview uses the saved schedule. Save your changes to update it."
+msgstr "Cet aperçu utilise les horaires enregistrés. Enregistrez vos modifications pour le mettre à jour."
+
+#: src/Admin/SettingsPage.php:83
+msgid "Storefront display"
+msgstr "Affichage en boutique"
+
+#: src/Admin/SettingsPage.php:83
+msgid "Add the live status anywhere with this shortcode:"
+msgstr "Affichez l’état actuel où vous le souhaitez avec ce code court :"
+
+#: src/Admin/SettingsPage.php:83
+msgid "The live notice refreshes with JavaScript. Checkout is protected on the server even without it."
+msgstr "L’avis se met à jour avec JavaScript. Les commandes restent protégées côté serveur même sans JavaScript."
+
+#: src/Admin/SettingsPage.php:83
+msgid "Catalog browsing and adding to cart remain available in every mode."
+msgstr "Le catalogue et l’ajout au panier restent disponibles dans tous les modes."
+
+#. translators: %s: minimum WooCommerce version.
+#: src/Core/Requirements.php:21
+#, php-format
+msgid "JeyTech Checkout Hours needs WooCommerce %s or later to run."
+msgstr "JeyTech Checkout Hours nécessite WooCommerce %s ou une version ultérieure."
+
+#: src/Schedule.php:28
+#: src/Schedule.php:35
+msgid "The weekly schedule is invalid."
+msgstr "Les horaires de la semaine sont invalides."
+
+#: src/Schedule.php:33
+msgid "Use at most 12 time ranges per day."
+msgstr "Utilisez au maximum 12 créneaux par jour."
+
+#: src/Schedule.php:42
+msgid "Enter valid HH:MM times. Opening and closing must differ; use 00:00–24:00 for a full day."
+msgstr "Saisissez des horaires HH:MM valides. L’ouverture et la fermeture doivent être différentes ; utilisez 00:00–24:00 pour une journée complète."
+
+#: src/Schedule.php:50
+msgid "Time ranges overlap, including an overnight range on the following day."
+msgstr "Des créneaux se chevauchent, y compris un créneau de nuit sur le jour suivant."
+
+#: src/Settings.php:42
+msgid "Choose a valid closed-hours mode."
+msgstr "Choisissez un mode de fermeture valide."
+
+#: src/Settings.php:45
+msgid "Add at least one opening range before enabling checkout hours."
+msgstr "Ajoutez au moins un créneau d’ouverture avant d’activer les horaires de commande."
+
+#: src/Status.php:22
+msgid "We are outside our order hours. You can still place an order."
+msgstr "Nous sommes en dehors de nos horaires de commande. Vous pouvez tout de même commander."
+
+#: src/Status.php:23
+msgid "Checkout is currently closed. You can continue browsing and filling your cart."
+msgstr "Les commandes sont actuellement fermées. Vous pouvez continuer à consulter le catalogue et à remplir votre panier."
+
+#. translators: %s: localized next opening date and time in the store timezone.
+#: src/Status.php:27
+#, php-format
+msgid "Next opening: %s."
+msgstr "Prochaine ouverture : %s."

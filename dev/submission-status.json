@@ -1,0 +1,10 @@
+{
+  "plugin": "jeytech-checkout-hours",
+  "version": "1.0.0",
+  "status": "prepared-not-submitted",
+  "reason": "Plugin #4 jeytech-order-transfer-qr is still Being Reviewed. WordPress.org normally permits one pending plugin review per account.",
+  "review4Proof": "review-4-status.json",
+  "nextAction": "When #4 is approved, publish its already approved package by SVN, then submit this tested #5 ZIP through the authenticated WordPress.org portal.",
+  "publicDownload": "Not yet available from WordPress.org.",
+  "frenchPack": "Prepared and natively tested outside the ZIP; community validation and public language-pack delivery are pending publication."
+}

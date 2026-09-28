@@ -1,0 +1,12 @@
+{
+  "steps": [
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; require '/wordpress/wp-content/plugins/jeytech-checkout-hours/src/Schedule.php'; $d=array_fill(1,7,array());$d[7]=array(array('start'=>'02:00','end'=>'02:30'));$z=new DateTimeZone('Europe/Paris');$r=JeyTech\\CheckoutHours\\Schedule::evaluate($d,1792888800,$z);if($r['next']!==1792890000)throw new Exception(json_encode($r));file_put_contents('/wordpress/wp-content/ch-dev/results/dst-absolute-smoke.txt','PASS PHP '.PHP_VERSION.' rewind reopens exactly at UTC 1792890000.');"
+    }
+  ],
+  "preferredVersions": {
+    "php": "7.4",
+    "wp": "6.6.2"
+  }
+}

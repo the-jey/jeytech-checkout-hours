@@ -1,0 +1,28 @@
+✓ dist/jeytech-checkout-hours.zip — version 1.0.0
+Archive:  dist/jeytech-checkout-hours.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2026-09-28 15:34   jeytech-checkout-hours/
+     1219  2026-09-28 14:53   jeytech-checkout-hours/jeytech-checkout-hours.php
+        0  2026-09-28 15:34   jeytech-checkout-hours/src/
+     1527  2026-09-28 14:53   jeytech-checkout-hours/src/Checkout.php
+     2337  2026-09-28 14:53   jeytech-checkout-hours/src/Settings.php
+     6546  2026-09-28 15:25   jeytech-checkout-hours/src/Schedule.php
+     1512  2026-09-28 15:32   jeytech-checkout-hours/src/Plugin.php
+        0  2026-09-28 15:34   jeytech-checkout-hours/src/Admin/
+     8372  2026-09-28 14:56   jeytech-checkout-hours/src/Admin/SettingsPage.php
+     1706  2026-09-28 15:25   jeytech-checkout-hours/src/Status.php
+     2904  2026-09-28 15:32   jeytech-checkout-hours/src/Frontend.php
+        0  2026-09-28 15:34   jeytech-checkout-hours/src/Core/
+      704  2026-09-28 14:53   jeytech-checkout-hours/src/Core/Compat.php
+      867  2026-09-28 14:53   jeytech-checkout-hours/src/Core/Requirements.php
+      861  2026-09-28 14:53   jeytech-checkout-hours/src/Core/Autoloader.php
+    17984  2026-09-28 14:53   jeytech-checkout-hours/LICENSE
+        0  2026-09-28 15:34   jeytech-checkout-hours/assets/
+      215  2026-09-28 14:53   jeytech-checkout-hours/assets/status.css
+     3786  2026-09-28 14:56   jeytech-checkout-hours/assets/admin.css
+     1342  2026-09-28 15:32   jeytech-checkout-hours/assets/status.js
+     1203  2026-09-28 14:56   jeytech-checkout-hours/assets/admin.js
+     4408  2026-09-28 14:56   jeytech-checkout-hours/readme.txt
+---------                     -------
+    57493                     22 files

@@ -1,0 +1,94 @@
+{
+  "testedAt": "2026-09-28T13:38:22.347Z",
+  "versions": {
+    "wp": "7.1.2",
+    "wc": "11.1.2",
+    "php": "8.3.33"
+  },
+  "reports": [
+    {
+      "kind": "settings",
+      "locale": "fr",
+      "invalidSavePreservesSettings": true,
+      "invalidNonce403": true,
+      "mobileOverflow": false
+    },
+    {
+      "kind": "classic",
+      "mode": "closed",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "noPaymentCall": true,
+      "noOrderMutation": true,
+      "noStockLoss": true,
+      "cartPreserved": true,
+      "http": 200,
+      "jsErrors": []
+    },
+    {
+      "kind": "classic",
+      "mode": "open",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "gatewayCalledOnce": true,
+      "positiveFixture": "Non-stock virtual product: Playground SQLite cannot execute WooCommerce stock reservations. Managed stock is checked on rejected real submissions.",
+      "orderReceived": true,
+      "jsErrors": []
+    },
+    {
+      "kind": "classic",
+      "mode": "warn",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "gatewayCalledOnce": true,
+      "positiveFixture": "Non-stock virtual product: Playground SQLite cannot execute WooCommerce stock reservations. Managed stock is checked on rejected real submissions.",
+      "orderReceived": true,
+      "jsErrors": []
+    },
+    {
+      "kind": "blocks",
+      "mode": "closed",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "noPaymentCall": true,
+      "noOrderMutation": true,
+      "noStockLoss": true,
+      "cartPreserved": true,
+      "http": 403,
+      "jsErrors": []
+    },
+    {
+      "kind": "blocks",
+      "mode": "open",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "gatewayCalledOnce": true,
+      "positiveFixture": "Non-stock virtual product: Playground SQLite cannot execute WooCommerce stock reservations. Managed stock is checked on rejected real submissions.",
+      "orderReceived": true,
+      "jsErrors": []
+    },
+    {
+      "kind": "blocks",
+      "mode": "warn",
+      "locale": "fr",
+      "realNativeSubmission": true,
+      "gatewayCalledOnce": true,
+      "positiveFixture": "Non-stock virtual product: Playground SQLite cannot execute WooCommerce stock reservations. Managed stock is checked on rejected real submissions.",
+      "orderReceived": true,
+      "jsErrors": []
+    },
+    {
+      "kind": "cached-classic",
+      "locale": "fr",
+      "staleOpenPageRejected": true,
+      "liveNoticeUpdated": true,
+      "noCharge": true
+    },
+    {
+      "kind": "no-js-classic",
+      "locale": "fr",
+      "serverRejected": true,
+      "noCharge": true
+    }
+  ]
+}

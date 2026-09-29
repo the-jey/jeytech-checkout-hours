@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-09-29T12:32:28.984612+00:00",
+  "plugin": "jeytech-checkout-hours",
+  "catalogs": [
+    {
+      "file": "languages/jeytech-checkout-hours-fr_FR.po",
+      "entries": 51,
+      "changes": [
+        {
+          "source": "Warning mode accepts orders normally; it does not schedule their processing.",
+          "before": "Le mode avertissement accepte les commandes normalement ; il ne programme pas leur traitement.",
+          "after": "Le mode avertissement accepte les commandes normalement ; il ne programme pas leur traitement."
+        },
+        {
+          "source": "Opening times are included; closing times are excluded. Overlapping ranges cannot be saved.",
+          "before": "Les heures d’ouverture sont incluses ; les heures de fermeture sont exclues. Les créneaux qui se chevauchent ne peuvent pas être enregistrés.",
+          "after": "Les heures d’ouverture sont incluses ; les heures de fermeture sont exclues. Les créneaux qui se chevauchent ne peuvent pas être enregistrés."
+        },
+        {
+          "source": "Add the live status anywhere with this shortcode:",
+          "before": "Affichez l’état actuel où vous le souhaitez avec ce code court :",
+          "after": "Affichez l’état actuel où vous le souhaitez avec ce code court :"
+        },
+        {
+          "source": "Enter valid HH:MM times. Opening and closing must differ; use 00:00–24:00 for a full day.",
+          "before": "Saisissez des horaires HH:MM valides. L’ouverture et la fermeture doivent être différentes ; utilisez 00:00–24:00 pour une journée complète.",
+          "after": "Saisissez des horaires HH:MM valides. L’ouverture et la fermeture doivent être différentes ; utilisez 00:00–24:00 pour une journée complète."
+        },
+        {
+          "source": "Next opening: %s.",
+          "before": "Prochaine ouverture : %s.",
+          "after": "Prochaine ouverture : %s."
+        }
+      ],
+      "untranslated": 0,
+      "fuzzy": 0,
+      "placeholdersAndHtml": "passed",
+      "uniqueOriginals": 51,
+      "obsolete": 0
+    }
+  ],
+  "newVersion": null
+}
